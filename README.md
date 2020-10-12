@@ -23,7 +23,7 @@ import {Tree} from '<path to the package's dist folder>/cssthree-tree'
 
 let tree=new Tree(600,400,"wrapper")
 ```
-the Tree class will search for the custom html tags, suck out the content, get rid of them from the page and then filter said content for LaTeX syntax enclosed in alternating **$**s. Rendering is achieved through *CSS3DRender* in a scene with trackball pan enabled.
+the Tree class will search for the custom html tags, suck out the content, get rid of them from the page and then filter said content for LaTeX syntax enclosed in alternating **$s**. Rendering is achieved through *CSS3DRender* in a scene with trackball pan enabled.
 
 ##### Alternating $s syntax?
-Yes, alternating dollar syntax. Tag content will be scoured for **$**s, alternating normal text and LaTeX math environtment, to mimic some setups for LaTeX writing (namely, those which enable inline equations enclosed with single $s). Rendering will build a *\\gathered* style, using double dashes for newlines.
+Yes, alternating dollar syntax. Tag content will be scoured for **$s**, alternating normal text and LaTeX math environtment, to mimic some setups for LaTeX writing (namely, those which enable inline equations enclosed with single $s). Rendering will build a *\\gathered* style, using double dashes for newlines.
