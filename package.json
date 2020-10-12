@@ -1,0 +1,27 @@
+{
+  "name": "cssthree-tree",
+  "version": "1.0.0",
+  "description": "A simple package to draw a tree-like graph from html nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cssthree-tree"
+  },
+  "keywords": [
+    "graph",
+    "tree",
+    "css3drender",
+    "education"
+  ],
+  "author": "Alberto 'ilBarbogio' Carminati",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.121.1"
+  },
+  "devDependencies": {
+    "tsc": "^1.20150623.0"
+  }
+}
