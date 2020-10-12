@@ -2,9 +2,10 @@
   "name": "cssthree-tree",
   "version": "1.0.0",
   "description": "A simple package to draw a tree-like graph from html nodes",
-  "main": "index.js",
+  "main": "dist/EDNBtree.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"nodemon ./dist/server/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,10 +20,12 @@
   "author": "Alberto 'ilBarbogio' Carminati",
   "license": "ISC",
   "dependencies": {
+    "@types/katex": "^0.11.0",
     "katex": "^0.12.0",
     "three": "^0.121.1"
   },
   "devDependencies": {
+    "@types/node": "^14.11.8",
     "tsc": "^1.20150623.0"
   }
 }
