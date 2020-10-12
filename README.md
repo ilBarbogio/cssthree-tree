@@ -15,7 +15,8 @@ You only need a div where to put your tree, and some custom tags with attributes
 <tree-node id="1" pos="0" lvl="1" parents="0"color="green">This is...</tree-node>
 <tree-node id="2" pos="2" lvl="2" parents="0"color="blue">...a css3D tree!</tree-node>
 ```
-custom attributes **pos** and **lvl** let you position nodes in space *more on this soon*.
+custom attributes **pos** and **lvl** let you position nodes in space.
+*->more on this soon<-*
 
 When you are satisfied with your content,y ou can build the tree graph with only one line of code
 ```
@@ -27,3 +28,4 @@ the Tree class will search for the custom html tags, suck out the content, get r
 
 ##### Alternating $s syntax?
 Yes, alternating dollar syntax. Tag content will be scoured for **$s**, alternating normal text and LaTeX math environtment, to mimic some setups for LaTeX writing (namely, those which enable inline equations enclosed with single $s). Rendering will build a *\\gathered* style, using double dashes for newlines.
+*->more on this soon<-*
