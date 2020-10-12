@@ -19,6 +19,7 @@
   "author": "Alberto 'ilBarbogio' Carminati",
   "license": "ISC",
   "dependencies": {
+    "katex": "^0.12.0",
     "three": "^0.121.1"
   },
   "devDependencies": {

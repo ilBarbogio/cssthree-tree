@@ -250,4 +250,4 @@ class Arco {
         this.oggetto3D.position.set(medio.x, medio.y, -1);
     }
 }
-//# sourceMappingURL=EDNBalbero.js.map
+//# sourceMappingURL=EDNBtree.js.map
